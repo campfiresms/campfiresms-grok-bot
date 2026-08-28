@@ -1,12 +1,13 @@
 {
   "name": "campfiresms",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Sparse SMS status and steering for Grok Bot through the hosted CampfireSMS MCP.",
   "author": {
     "name": "CampfireSMS"
   },
   "homepage": "https://campfiresms.com/",
   "repository": "https://github.com/campfiresms/campfiresms-grok-bot",
+  "logo": "assets/logo.png",
   "license": "MIT",
   "keywords": ["sms", "grok-bot", "mcp", "remote-work"],
   "skills": "./skills/",
