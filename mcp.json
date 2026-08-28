@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "campfiresms": {
+      "url": "https://api.campfiresms.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${CAMPFIRE_CREDENTIAL}"
+      }
+    }
+  }
+}

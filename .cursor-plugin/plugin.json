@@ -1,0 +1,26 @@
+{
+  "name": "campfiresms",
+  "version": "0.1.2",
+  "description": "Sparse SMS status and steering for Grok Bot through the hosted CampfireSMS MCP.",
+  "author": {
+    "name": "CampfireSMS"
+  },
+  "homepage": "https://campfiresms.com/",
+  "repository": "https://github.com/campfiresms/campfiresms-grok-bot",
+  "license": "MIT",
+  "keywords": ["sms", "grok-bot", "mcp", "remote-work"],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "CAMPFIRE_CREDENTIAL": {
+        "type": "string",
+        "title": "CampfireSMS installation credential",
+        "description": "Configure the cfi_ installation bearer here. Never paste it into a Bot conversation.",
+        "minLength": 40
+      }
+    },
+    "required": ["CAMPFIRE_CREDENTIAL"]
+  }
+}
